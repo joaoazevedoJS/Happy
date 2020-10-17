@@ -51,7 +51,6 @@ export default {
         return { path: image.filename };
       });
     }
-
     const data = {
       name,
       latitude,
@@ -59,7 +58,7 @@ export default {
       about,
       instructions,
       opening_hours,
-      open_on_weekends,
+      open_on_weekends: String(open_on_weekends) === 'true',
       images,
     };
 

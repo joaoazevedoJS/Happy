@@ -9,6 +9,18 @@ body {
   background: #ebf2f5;
 }
 
-body, input, button, textarea {
-  font: 600 18px 'Nunito', sans-serif;
+body,
+input,
+button,
+textarea {
+  font: 600 18px "Nunito", sans-serif;
+}
+
+p.alert {
+  background: #29b6d1;
+  position: fixed;
+  width: 100%;
+  font-size: 24px;
+  text-align: center;
+  padding: 24px 0;
 }

@@ -1,0 +1,28 @@
+div.main-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+div.btn-img {
+  border: 0;
+  height: 88px;
+  background: none;
+  cursor: pointer;
+  border-radius: 20px;
+  overflow: hidden;
+  outline: none;
+  
+  opacity: 0.6;
+}
+
+div.footer-map {
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 2px;
+  line-height: 24px;
+}
+
+div.hours {
+  height: 128px;
+}

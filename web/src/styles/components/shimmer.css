@@ -1,0 +1,41 @@
+.shimmer-effect-component .shimmer-effect {
+  background-image: linear-gradient(
+    -90deg,
+    #e7edf1 0%,
+    #b3dae2b3 50%,
+    #e7edf1 100%
+  ) !important;
+
+  background-size: 400% 400% !important;
+  animation: shimmer 1.2s ease-in-out infinite !important;
+}
+
+.shimmer-effect-component .shimmer-title {
+  width: 70%;
+  height: 32px;
+  border-radius: 2px;
+  margin-bottom: 24px;
+}
+
+.shimmer-effect-component .shimmer-text {
+  width: 90%;
+  height: 16px;
+}
+
+.shimmer-effect-component .shimmer-text + .shimmer-text {
+  width: 80%;
+  margin-top: 4px;
+}
+
+.shimmer-effect-component .shimmer-text + .shimmer-text + .shimmer-text {
+  width: 75%;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: -135% 0%;
+  }
+}
